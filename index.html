@@ -16,24 +16,24 @@
       }
 
       .code {
+        display: flex;
         background-color: hsl(0, 0%, 100%);
-        height: 55%;
-        width: 55%;
         margin-top: 60px;
-        justify-items: center;
         border-radius: 15px;
+        width: 300px;
         justify-self: center;
-        padding-bottom: 40px;
-        padding-top: 15px;
+        justify-content: center;
+        padding-right: 25px;
+        padding-bottom: 30px;
       }
 
       img {
-        display: flex;
-        width: 90%;
-        height: 60%;
-        padding-top: 10px;
+        width: 290px;
+        height: 290px;
+        margin-top: 20px;
+        margin-left: 15px;
         border-radius: 10px 10px 10px 10px;
-        padding-bottom: 20px;
+        justify-self: center;
       }
 
       .skills {
@@ -41,15 +41,12 @@
         font-weight: 700;
         text-align: center;
         font-size: 20px;
-        padding-bottom: 15px;
       }
       .scan {
-        text-align: center;
         font-family: Arial;
         font-weight: 400;
         font-size: 15px;
         color: hsl(216, 15%, 48%);
-        margin-bottom: 15px;
       }
 
       .attribution {
@@ -60,28 +57,41 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 330px;
+        margin-left: -270px;
+        gap: 15px;
+      }
     </style>
   </head>
 
   <body>
     <div class="code">
       <img src="images/image-qr-code.png" alt="qr scan code" />
-      <div class="skills">
-        Improve your frot-end <br />skills by building projects
-      </div>
-      <div class="scan">
-        Scan the QR code to visit Frontend<br />
-        Mentor and take your coding skills to <br />the next level
-      </div>
 
-      <div class="attribution">
-        Challenge by
-        <a
-          href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3cfe/submit"
-          target="_blank"
-          >Frontend Mentor</a
-        >
-        Coded by <a href="#">Zacch Tech</a>.
+      <div class="text">
+        <div class="skills">
+          Improve your frot-end <br />skills by building projects
+        </div>
+
+        <div class="scan">
+          Scan the QR code to visit Frontend<br />
+          Mentor and take your coding skills to <br />the next level
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/profile/ZacchTech"
+            target="_blank"
+            >Frontend Mentor</a
+          >
+          Coded by <a href="https://github.com/ZacchTech">Zacch Tech</a>.
+        </div>
       </div>
     </div>
   </body>
